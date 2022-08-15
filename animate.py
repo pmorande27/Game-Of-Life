@@ -33,4 +33,8 @@ class Animation(object):
         """
         fig = plt.figure()
         ani = animation.FuncAnimation(fig, self.updatefig,init_func=self.init,interval = 100, blit = True)
-        plt.show()        
+        plt.show() 
+    def animation_save(self, iterations, textfile):
+        fig = plt.figure()
+        ani = animation.FuncAnimation(fig, self.updatefig,init_func=self.init,interval = 100,frames =iterations, blit = True)
+        ani.save('results/'+textfile+'.gif', writer='imagemagick', fps=120)
