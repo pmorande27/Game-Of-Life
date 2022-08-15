@@ -6,8 +6,8 @@ import patterns
 
 
 def main():
-    pattern = patterns.get_patern('patterns/Simkin Glider Gun.txt')      
-    pattern = patterns.center_pattern(pattern,59,59)
+    pattern = patterns.get_patern('patterns/MWWS Synthesis.txt')      
+    pattern = patterns.center_pattern(pattern,20,100)
     ani = Animation(pattern)
     ani.animation()
     
