@@ -6,11 +6,13 @@ import patterns
 
 
 def main():
-    pattern_name = 'Gosper Glider Gun'
-    pattern = patterns.get_patern('patterns/'+pattern_name+'.txt')      
-    pattern = patterns.center_pattern(pattern,100,100)
-    ani = Animation(pattern)
-    ani.animation_save(100, 'Hertz Oscillator')
+    options = ['Glider','Gosper Glider Gun','Hertz Oscillator','Kok\'s Galaxy','MWWS Synthesis','MWWS','pulsar','sailboat','Simkin Glider Gun']
+    
+    for pattern_name in options:
+        pattern = patterns.get_patern('patterns/'+pattern_name+'.txt')      
+        pattern = patterns.center_pattern(pattern,100,100)
+        ani = Animation(pattern)
+        ani.animation_save(300, pattern_name)
     
 
 
