@@ -5,5 +5,8 @@ The game consists in a grid of cells which can be alive or dead, the status of t
 1. If the cell is alive it will stay alive if it has either 2 or 3 alive neighbours.
 2. If the cell is dead it will become alive if it has exactly 3 alive neighbours mimicking reproduction.
 3. If none of the other rules apply the cell will stay/become dead.
+This simple set of rules leads to astonishing results even with simple initial patterns.
 
+## Patterns
+This section outlines some example initial patterns that demonstrate the complexity of the Game of Life
 
