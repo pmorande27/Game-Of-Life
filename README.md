@@ -9,4 +9,15 @@ This simple set of rules leads to astonishing results even with simple initial p
 
 ## Patterns
 This section outlines some example initial patterns that demonstrate the complexity of the Game of Life
+### Still life
+These initial patterns always remain without change
+1. Block
 
+
+![](results/Pictures/Block_pattern.png?raw=true "Block")
+
+### Oscillators
+These patterns return to their initial configurations after a set number of generations.
+1. Pulsar
+
+![](results/Pictures/pulsar_pattern.png?raw=true "Block")
