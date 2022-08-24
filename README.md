@@ -20,4 +20,10 @@ These initial patterns always remain without change
 These patterns return to their initial configurations after a set number of generations.
 1. Pulsar
 
-![](results/Pictures/pulsar_pattern.png?raw=true "Block")
+![](results/Pictures/pulsar_pattern.png?raw=true "Pulsar")
+
+### Spaceships
+These patterns traverse through the grid, they are moving patterns. Each of them with a different speed
+
+1. Glider
+![](results/Pictures/Glider_Pattern.png?raw=true "Glider")
