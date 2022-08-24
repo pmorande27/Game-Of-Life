@@ -26,4 +26,5 @@ These patterns return to their initial configurations after a set number of gene
 These patterns traverse through the grid, they are moving patterns. Each of them with a different speed
 
 1. Glider
+
 ![](results/Pictures/Glider_Pattern.png?raw=true "Glider")
